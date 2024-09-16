@@ -7,6 +7,10 @@
 clear
 close all
 clc
+
+%Bring in casadi
+addpath(genpath('/Users/masmussen/casadi-3.6.6-osx64-matlab2018b'))
+
 % path to the repository folder
 [pathRepo,~,~] = fileparts(mfilename('fullpath'));
 % path to the folder that contains the repository folder
